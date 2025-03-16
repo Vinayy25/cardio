@@ -44,8 +44,8 @@ class FirebaseService {
               .set({
             'deviceId': deviceId,
             'phoneNumber': phoneNumber,
-            'accountSid': 'AC5c014bbd8592d10d634948a1c7eb61a4',
-            'authToken': 'cb2e28846766bd779a895d39e9b94d64',
+            'accountSid': '',
+            'authToken': '',
             'twilioNumber': '+13203838376'
           });
 
@@ -131,9 +131,9 @@ class FirebaseService {
         .collection('deviceIds')
         .doc(_firebaseAuth.currentUser?.email)
         .update({
-      'accountSid': 'AC5c014bbd8592d10d634948a1c7eb61a4',
-      'authToken': 'cb2e28846766bd779a895d39e9b94d64',
-      'twilioNumber': '+13203838376'
+      'accountSid': '',
+      'authToken': '',
+      'twilioNumber': '+'
     });
   }
 }

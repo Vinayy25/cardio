@@ -43,47 +43,11 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBz1rmxDzrvXPBcOaIPwujizZ1Fz3yALFI',
-    appId: '1:17965689242:web:8331244815822013c2b223',
-    messagingSenderId: '17965689242',
-    projectId: 'cardiogram-proj',
-    authDomain: 'cardiogram-proj.firebaseapp.com',
-    databaseURL: 'https://cardiogram-proj-default-rtdb.firebaseio.com',
-    storageBucket: 'cardiogram-proj.appspot.com',
-    measurementId: 'G-Z35GZ9FGL5',
-  );
+  static const FirebaseOptions web = FirebaseOptions();
 
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBXW4jD4Mg7BBoEmTdrgSmjwLIFPtuWohU',
-    appId: '1:17965689242:android:db7f0f95b511152ac2b223',
-    messagingSenderId: '17965689242',
-    projectId: 'cardiogram-proj',
-    databaseURL: 'https://cardiogram-proj-default-rtdb.firebaseio.com',
-    storageBucket: 'cardiogram-proj.appspot.com',
-  );
+  static const FirebaseOptions android = FirebaseOptions();
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyB2o0qvUNxXgHs_hX7CuyQDS94amSCxbbA',
-    appId: '1:17965689242:ios:1bd89c1f8181847ac2b223',
-    messagingSenderId: '17965689242',
-    projectId: 'cardiogram-proj',
-    databaseURL: 'https://cardiogram-proj-default-rtdb.firebaseio.com',
-    storageBucket: 'cardiogram-proj.appspot.com',
-    androidClientId: '17965689242-bjcfpc4n4nfbadmsq22ij4dagfvbqgun.apps.googleusercontent.com',
-    iosClientId: '17965689242-o638epifoqibt3oi72bkdqvuj0u3epsp.apps.googleusercontent.com',
-    iosBundleId: 'com.example.cardiogram',
-  );
+  static const FirebaseOptions ios = FirebaseOptions();
 
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyB2o0qvUNxXgHs_hX7CuyQDS94amSCxbbA',
-    appId: '1:17965689242:ios:68ad748279e72579c2b223',
-    messagingSenderId: '17965689242',
-    projectId: 'cardiogram-proj',
-    databaseURL: 'https://cardiogram-proj-default-rtdb.firebaseio.com',
-    storageBucket: 'cardiogram-proj.appspot.com',
-    androidClientId: '17965689242-bjcfpc4n4nfbadmsq22ij4dagfvbqgun.apps.googleusercontent.com',
-    iosClientId: '17965689242-j3up6ejbrgb5ltgamforgr7vinr4r012.apps.googleusercontent.com',
-    iosBundleId: 'com.example.cardiogram.RunnerTests',
-  );
+  static const FirebaseOptions macos = FirebaseOptions();
 }
